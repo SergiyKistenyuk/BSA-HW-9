@@ -1,0 +1,9 @@
+.block {
+    max-width: 300px;
+    margin: 75px auto;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    padding: 20px;
+    overflow: auto;
+
+}
