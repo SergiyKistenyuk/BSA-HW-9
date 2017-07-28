@@ -48,16 +48,6 @@ class UserApp extends Component {
         this.setState({ users: users });
     }
 
-    shouldComponentUpdate(nextProps, nextState) {
-        if (nextState.users.length !== this.state.users.length) {
-            console.log('UPDATE');
-            return true;
-        } else {
-            console.log('NOT UPDATE');
-            return false;
-        }
-    }
-
     render() {
         return (
         <div className="block">
