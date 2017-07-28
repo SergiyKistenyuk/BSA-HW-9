@@ -38,7 +38,7 @@ class UserApp extends Component {
     }
 
     deleteUser(userId) {
-        let users = this.state.users;
+        let users = [...this.state.users];
         for(let i = 0; i < users.length; i++) {
             if(userId === users[i].id) {
                 users.splice(i, 1);
